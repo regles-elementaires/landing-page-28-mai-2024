@@ -6,6 +6,8 @@ body {
 
 .font-anybody {
   font-family: 'Anybody', 'DM Sans', sans-serif;
+  font-weight: 800;
+  font-style: italic;
 }
 
 /** COLORS **/
@@ -37,6 +39,7 @@ body {
 .bg-brochure {
   background-image: url("./img/brochure.png");
   background-size: cover;
+  background-position: center;
 }
 
 .text-grey {
@@ -55,18 +58,6 @@ body {
   margin-left: 5rem;
 }
 
-.width-60 {
-  width: 60%;
-}
-
-.width-35 {
-  width: 35px;
-}
-
-.big-number {
-  font-size: 50px;
-}
-
 .my-rounded {
   border-radius: 20px;
 }
@@ -82,11 +73,6 @@ body {
 }
 
 @media (min-width: 768px) {
-  .bg-purple-stain {
-    background-image: url("./img/purple-stain.png");
-    background-position: bottom right;
-    background-repeat: no-repeat;
-  }
 
   .h-60 {
     height: 60px;
@@ -101,7 +87,7 @@ body {
   }
 
   .h-280 {
-    height: 280px;
+    min-height: 280px;
   }
 
   .h-300 {
@@ -160,6 +146,10 @@ body {
     height: 220px;
   }
 
+  .h-300 {
+    height: 200px;
+  }
+
   .fs-14 {
     font-size: 12px;
   }
@@ -193,12 +183,4 @@ body {
   .pill-button {
     padding: .3rem 1.5rem;
   }
-}
-
-.rotate-5 {
-  transform: rotate(-5deg);
-}
-
-.rotate-2 {
-  transform: rotate(2deg);
 }
