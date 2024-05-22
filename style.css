@@ -1,0 +1,199 @@
+/** FONTS **/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.font-anybody {
+  font-family: 'Anybody', 'DM Sans', sans-serif;
+}
+
+/** COLORS **/
+
+.text-red {
+  color: #E0311C;
+}
+
+.bg-red {
+  background-color: #E0311C;
+}
+
+.border-red {
+  border: 1px solid #E0311C;
+}
+
+.bg-brown {
+  background-color: #631712;
+}
+
+.bg-green {
+  background-color: #C4DBAE;
+}
+
+.bg-grey {
+  background-color: #dddbd9;
+}
+
+.text-grey {
+  color: #626262;
+}
+
+.bg-red-gradient {
+  background: rgb(224,48,28);
+  background: linear-gradient(0deg, rgba(224,48,28,1) 0%, rgba(217,112,120,1) 100%); 
+}
+
+/** GENERAL **/
+
+.mx-6 {
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+.width-60 {
+  width: 60%;
+}
+
+.width-35 {
+  width: 35px;
+}
+
+.big-number {
+  font-size: 50px;
+}
+
+.my-rounded {
+  border-radius: 20px;
+}
+
+.pill-button {
+  display: inline-block;
+  border-radius: 100px;
+  text-decoration: none;
+}
+
+.pill-button:hover {
+  background-color: #C4DBAE;
+}
+
+@media (min-width: 768px) {
+  .bg-purple-stain {
+    background-image: url("./img/purple-stain.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+  }
+
+  .h-60 {
+    height: 60px;
+  }
+
+  .h-80 {
+    height: 80px;
+  }
+
+  .h-110 {
+    height: 110px;
+  }
+
+  .h-280 {
+    height: 280px;
+  }
+
+  .h-300 {
+    height: 300px;
+  }
+
+  .fs-14 {
+    font-size: 14px;
+  }
+
+  .fs-16 {
+    font-size: 16px;
+  }
+
+  .fs-20 {
+    font-size: 20px;
+  }
+
+  .fs-30 {
+    font-size: 30px;
+  }
+
+  .fs-50 {
+    font-size: 50px;
+  }
+
+  .fs-60 {
+    font-size: 60px;
+  }
+
+  .video-container {
+    position: relative;
+    padding-top: 56.25%;
+    width: 100%;
+  }
+
+  .pill-button {
+    padding: .3rem 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .h-60 {
+    height: 48px;
+  }
+  
+  .h-80 {
+    height: 60px;
+  }
+
+  .h-110 {
+    height: 90px;
+  }
+  
+  .h-280 {
+    height: 220px;
+  }
+
+  .fs-14 {
+    font-size: 12px;
+  }
+
+  .fs-16 {
+    font-size: 14px;
+  }
+
+  .fs-20 {
+    font-size: 16px;
+  }
+
+  .fs-30 {
+    font-size: 24px;
+  }
+
+  .fs-50 {
+    font-size: 36px;
+  }
+
+  .fs-60 {
+    font-size: 40px;
+  }
+
+  .video-container {
+    position:relative;
+    padding-top:56.25%;
+    width:100%;
+  }
+
+  .pill-button {
+    padding: .3rem 1.5rem;
+  }
+}
+
+.rotate-5 {
+  transform: rotate(-5deg);
+}
+
+.rotate-2 {
+  transform: rotate(2deg);
+}
