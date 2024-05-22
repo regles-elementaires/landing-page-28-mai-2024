@@ -34,6 +34,11 @@ body {
   background-color: #dddbd9;
 }
 
+.bg-brochure {
+  background-image: url("./img/brochure.png");
+  background-size: cover;
+}
+
 .text-grey {
   color: #626262;
 }
